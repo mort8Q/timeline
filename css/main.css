@@ -1,0 +1,129 @@
+* {
+    /* border: 1px solid red; */
+    margin: 5px 5px;
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+}
+
+.indicator {
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    perspective: 600px;
+    perspective: 600px;
+    background: #fff;
+    color: #fff;
+    text-align:center;
+}
+
+.main {
+    width: 100%;
+    
+}
+
+.player-2 {
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.player-2 .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.playground {
+    justify-content: center;
+    align-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 300px;
+}
+
+.player-1 {
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.player-1 .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.timeline-card {
+    background-color: #ccc;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    display: inline-block;
+    width: 200px;
+    height: 95%;
+}
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    width: 100px;
+    height: 80%;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.player-card img {
+    height: 80px;
+}
+
+.timeline-card img {
+    height: 140px;
+}
+
+.bigbang {
+    background-color: #ccc;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    display: inline-block;
+    width: 200px;
+    height: 95%;
+}
+
+.bigbang img {
+    height: 140px;
+}
+

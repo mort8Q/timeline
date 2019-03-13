@@ -1,0 +1,57 @@
+* {
+  /* border: 1px solid red; */
+  font-family: 'Merriweather', serif;
+}
+
+body {
+    height: 100%;
+    font: 12px/1.2 Arial;
+    perspective: 600px;
+    perspective: 600px;
+    background: #fff;    
+    color: #000;
+    text-align:center;
+  }
+
+h1 {
+  font-size: 4em;
+}
+
+a {
+  font-size: 3em;
+}
+
+ a:nth-child(3) {
+  font-size: 1em;
+ } 
+ 
+ .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .column-1, .column-2, .column-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+
+ .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+   height:250px;
+   width: 430px;
+ }
+
+ img {
+   height: 200px;
+   width: 400px;
+ }
+
